@@ -1,0 +1,51 @@
+#About-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#About-head p{
+    text-align: center;
+    width: 50%;
+}
+/* -------------------------------------------------------------------------------------------- */
+
+
+@media  only screen and (max-width: 450px){
+    #About-head p{
+        width: 100%;
+    }
+ }
+
+#About-head #title{
+    font-size: 2.5rem;
+}
+
+#About-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+#side-heading{
+    font-size: 2rem;
+}
+
+
+#skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 500px;
+}
+#skill{
+    width: max-content;
+    background-color: #3d2c2d;
+    padding:10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+

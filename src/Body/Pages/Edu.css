@@ -1,0 +1,44 @@
+#Edu-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#Edu-head #title{
+    font-size: 2.5rem;
+}
+
+#Edu-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Edu-body #place{
+    background-color: #3d2c2d;
+    min-width: 60%;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:10px;
+}
+
+
+.lilBox{
+    background-color: #ffa621;
+    padding: 15px;
+    min-width: 50%;
+    border-radius: 50px;
+    text-align: center;
+    margin:15px;
+    transition: display 2s ease;
+}
+
+

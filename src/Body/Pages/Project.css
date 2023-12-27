@@ -1,0 +1,61 @@
+#Project-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#Project-head #title{
+    font-size: 2.5rem;
+}
+
+
+#Project-body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:30px;
+    gap: 20px;
+}
+
+#Project-body #Project-body-left img{
+    max-width: 600px;
+    border-radius: 50px;
+    border: 10px solid #3d2c2d;
+    overflow-x: hidden;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+@media  only screen and (max-width: 1300px){
+    #Project-body #Project-body-left img{
+        max-width: 500px;
+    }
+ }
+
+ @media  only screen and (max-width: 1000px){
+    #Project-body #Project-body-left img{
+        max-width: 550px;
+    }
+ }
+
+ @media  only screen and (max-width: 800px){
+    #Project-body #Project-body-left img{
+        max-width: 500px;
+    }
+ }
+
+ @media  only screen and (max-width: 600px){
+    #Project-body #Project-body-left img{
+        max-width: 400px;
+    }
+ }
+
+ @media  only screen and (max-width: 450px){
+    #Project-body #Project-body-left img{
+        max-width: 300px;
+    }
+ }

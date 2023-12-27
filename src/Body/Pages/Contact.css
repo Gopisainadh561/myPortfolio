@@ -1,0 +1,126 @@
+#Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #16212b;
+}
+#Contact #title{
+    font-size: 2.5rem;
+}
+
+#Contact #contact-up{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+Form was commented
+
+#Contact #contact-form{
+    background-color: #3d2c2d;
+    padding:20px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+#Contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#Contact form input{
+    height: 50px;
+}
+
+
+#Contact form input,textarea{
+    width: 45vw;
+    border:none;
+    margin:15px;
+    border-radius: 15px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: 2px;
+    font-size: 1.1rem;
+    font-family: 'ABeeZee';
+}
+#Contact form input:focus{
+    border: 2px solid #ffa621;
+}
+
+#Contact form textarea:focus{
+    border: 2px solid #ffa621;
+}
+
+#Contact form button{
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width:150px;
+    padding:10px;
+    font-size: 1.2rem;
+    font-family: 'ABeeZee';    
+    background-color: #ffa621; 
+}
+
+#Contact form button:hover{
+    background-color: #16212b;
+    color: white;
+    border:1px solid #ffa621;
+} */
+
+#contact-down{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-down #title{
+    font-size: 1.5rem;
+    /* margin-top:35vh;    form related */
+    text-align: center;
+}
+
+#contact-down #foot{
+    text-align: center;
+    color: rgb(210, 208, 208);
+    font-size: 0.8rem;
+}
+
+
+svg{
+    border: 1px solid #ffa621;
+    padding:15px;
+    margin: 10px;
+    border-radius: 50%;
+    fill: #ffa621;
+}
+
+svg:hover{
+    background-color: #ffa621;
+    fill:black;
+}
+
+@media  only screen and (max-width: 450px){
+    #Contact form input,textarea{
+        width: 80vw;
+        border:none;
+        margin:10px;
+        border-radius: 15px;
+        padding: 10px;
+        resize: none;
+        outline: none;
+        font-size: 1rem;
+        font-family: 'ABeeZee';
+    }
+ }
