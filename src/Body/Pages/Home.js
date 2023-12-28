@@ -17,7 +17,7 @@ export default function Home() {
             }}></span>
 
         <div id="opening">
-          <div id="myname">GOPI SAINADH</div>
+          <div id="myname">GOPI SAINADH G</div>
           <div id="bio">SOFTWARE ENGINEER, FRONTEND DEVELOPER.</div>
         </div>
     </div>
