@@ -29,7 +29,7 @@ export default function Edu() {
         <div id='Edu-body'>
             <div id="place" onClick={()=>{body("clg")}} >
                 <p>Kkr & Ksr Institute of Technology and Sciences</p>
-                <p>2021-2024</p>
+                <p>2020-2024</p>
             </div>
                     <div id='clg' className='lilBox' style={{display:'none'}}>
                     Bachelor of Technology (B.Tech) in the stream of Computer Science and Engineering ,<br></br>

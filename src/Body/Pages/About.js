@@ -37,7 +37,7 @@ export default function About() {
                     <div id='skill'>Computer Networks</div>
                     <div id='skill'>BlockChain</div>
                     
-                    <div id='skill'>Time MAnagement</div>
+                    <div id='skill'>Time Management</div>
                     <div id='skill'>LeaderShip</div>
 
                 </div>
